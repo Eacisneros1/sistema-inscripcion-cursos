@@ -28,7 +28,6 @@
 <body>
     <h1>Cursos Disponibles</h1>
     <div class="container" id="cursos">
-        <!-- Los cursos serán cargados aquí dinámicamente -->
     </div>
 </body>
 </html>

@@ -14,7 +14,7 @@ $query = "INSERT INTO inscripciones (nombre_usuario, email_usuario, curso_id) VA
 $stmt = $conn->prepare($query);
 
 if ($stmt->execute([$nombre_usuario, $email_usuario, $curso_id])) {
-    // Mensaje de confirmación con referencia al CSS externo
+    // Mensaje de confirmación del css
     echo "
     <!DOCTYPE html>
     <html lang='es'>
